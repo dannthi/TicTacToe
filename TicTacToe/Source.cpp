@@ -37,6 +37,7 @@ int main() {
 
 					if (check()) {
 						equal = 10; //equal > als 9 (while bedingung)
+						print_board();
 					}
 					if (equal == 8) { //Bei 8 durchläufen muss das Spiel unentschieden ausgehen
 						printf("\nDraw");
@@ -78,8 +79,8 @@ int main() {
 							}
 							else {
 								valid = 1;
+								board[best_line][best_row] = 79;
 							}
-							board[best_line][best_row] = 79;
 						} while (valid == 0); //Widerholung bis Feld "frei"
 						valid = 1;
 					}
