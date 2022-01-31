@@ -6,7 +6,7 @@
 
 int main() {
 	int num_player;
-	printf("1 or 2 players? "); //Anzahl der Spieler auswählen
+	printf("1 or 2 players? "); //Anzahl der Spieler auswï¿½hlen
 	scanf("%d", &num_player);
 	do {
 		if (num_player == 2) {
@@ -39,7 +39,7 @@ int main() {
 						equal = 10; //equal > als 9 (while bedingung)
 						print_board();
 					}
-					if (equal == 8) { //Bei 8 durchläufen muss das Spiel unentschieden ausgehen
+					if (equal == 8) { //Bei 8 durchlï¿½ufen muss das Spiel unentschieden ausgehen
 						printf("\nDraw");
 					}
 				}
@@ -89,7 +89,7 @@ int main() {
 						equal = 10;
 						print_board();
 					}
-					if (equal == 8) { //Bei 8 durchläufen muss das Spiel unentschieden ausgehen
+					if (equal == 8) { //Bei 8 durchlï¿½ufen muss das Spiel unentschieden ausgehen
 						printf("\nDraw");
 					}
 					equal += 1;
